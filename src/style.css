@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: rgba(1, 77, 1, 0.87);
+}
+
+.body-card {
+  text-align: center;
+}
+
+.Card {
+  margin: 100px;
+  font-family: Copperplate Gothic;
+  background-color: white;
+  display: inline-grid;
+  height: 460px;
+  width: 300px;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.685);
+  border-radius: 15px;
+  font-size: 110px;
+  align-content: center;
+  box-shadow: 20px 10px 10px black;
+}
+
+.header {
+  place-self: start;
+}
+
+.center {
+  place-self: center;
+}
+
+.footer {
+  place-self: flex-end;
+  transform: rotate(180deg);
+}
